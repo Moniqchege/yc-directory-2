@@ -2,10 +2,10 @@ import { auth } from "@/app/auth";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { Suspense } from "react";
-import { StartupCardSkeleton } from "@/components/StartupCard";
 import { client } from "@/sanity/lib/client";
 import { AUTHOR_BY_ID_QUERY } from "@/sanity/lib/queries";
 import UserStartups from "@/components/UserStartups";
+import { StartupCardSkeleton } from "@/components/StartupCard";
 
 export const experimental_ppr = true;
 
